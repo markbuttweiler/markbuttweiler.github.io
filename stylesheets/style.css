@@ -2,3 +2,7 @@ body {
   font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 14pt;
 }
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
