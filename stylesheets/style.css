@@ -6,3 +6,10 @@ body {
 	margin-left: 0;
 	margin-right: 0;
 }
+
+
+ a img { display:none; }
+ a:hover img {
+ 	display:block;
+ 	width:200px;
+ }
