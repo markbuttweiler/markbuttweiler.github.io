@@ -18,37 +18,63 @@
   <link rel="shortcut icon" href="">
 </head>
 <body>
-  <br>
+	<br>
 
-  <div class="row">
-    <div class="col-md-offset-1 col-md-4">
-      <img src="profile.jpg" style="width: 300px;">
-    </div>
+	<div class="row">
+ 		<div class="col-md-offset-1 col-md-10">
+			<div class="tab">
+				<button class="tablinks" onclick="openCity(event, 'About Me')">About Me</button>
+				<button class="tablinks" onclick="openCity(event, 'Resume')">Resume</button>
+				<button class="tablinks" onclick="openCity(event, 'Current Projects')">Current Projects</button>
+			</div>
+		</div>
+	</div>
 
-    <div class="col-md-6">
-      <h1>Hi, I'm Mark.</h1>
-      <p>This is the home of my respository. I will update this website soon. </p>
-      <p>Check out my <a href="https://ein3108.github.io/" target="_blank">handsome husband's work</a>. He is the guy in the picture to the left! </p>
-      <p> Things that interest me this week: 
-      <br>
-      <!-- I want to have three things that I am thinking this week on my webpage. I want to 
-      hover over each word to see a picture with a hyperlink for people who don't know what 
-      LoL is. LOL LOL  
-      -->
+	<br>
 
-      <a href="https://en.wikipedia.org/wiki/Psychometrics" target="_blank">psychometrics<img src="images/psychometrics.jpg" /></a>
-       <br>
+	<div class="row">
+		<div class="col-md-offset-1 col-md-4">
+	     	<img src="profile.jpg" style="width: 100%;">
+	    </div>   
 
-      <a href="https://en.wikipedia.org/wiki/Turmeric" target="_blank"> tumeric <img src="images/turmeric.jpg" /></a>
-       <br>	
+	    <div class="col-md-6">
+			<div id="About Me" class="tabcontent">
+	      		<h1>Hi, I'm Mark.</h1>
+			      <p>This is the home of my respository. I will update this website soon. </p>
+			      <p>Check out my <a href="https://ein3108.github.io/" target="_blank">handsome husband's work</a>. He is the guy in the picture to the left! </p>
+			      <p> Things that interest me this week: </p>
+			      <br>
+			      <!-- I want to have three things that I am thinking this week on my webpage. I want to 
+	      			hover over each word to see a picture with a hyperlink for people who don't know what LoL is. LOL LOL  
+			      -->
 
-      <a href="https://en.wikipedia.org/wiki/League_of_Legends" target="_blank"> LoL  <img src="images/lol.jpg" /></a>
+			      <a href="https://en.wikipedia.org/wiki/Psychometrics" target="_blank">psychometrics<img src="images/psychometrics.jpg" /></a>
+			       <br>
 
-    </div>
-  </div>
+			      <a href="https://en.wikipedia.org/wiki/Turmeric" target="_blank"> tumeric <img src="images/turmeric.jpg" /></a>
+			       <br>	
 
-  <br>
-  
- 
+			      <a href="https://en.wikipedia.org/wiki/League_of_Legends" target="_blank"> LoL  <img src="images/lol.jpg" /></a>
+		    </div> 	
+
+		 
+			<div id="Resume" class="tabcontent">
+	      		<h1>Mark Steven Kang Buttweiler</h1>
+	      		<p> Expect a formatted resume here eventually. </p>
+		    </div>
+
+		    <div id="Current Projects" class="tabcontent">
+	      		<h1>What's occupying my time?</h1>
+	      		<p> I'm currently working on improving my data visualization skills. This requires practice practice practice. Stay tuned for some examples of visualization using Python and R (which, of course, will be added to my repository in Github!). </p>
+		    </div>
+
+		</div>
+	</div>
+
+	<script src="javascripts/tabs.js" type="text/javascript" charset="utf-8"></script>
+
+	<script src="javascripts/tabdefault.js" type="text/javascript" charset="utf-8"></script>
+
+
 </body>
 
